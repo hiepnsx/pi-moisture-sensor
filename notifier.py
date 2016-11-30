@@ -6,3 +6,4 @@ import random
 import getdata
 
 def main():
+  print "test"

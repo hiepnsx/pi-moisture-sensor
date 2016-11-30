@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-This program opens multiple process for us to be able to run twitter.py and getdata.py simultaneously.
+This program opens multiple process for us to be able to run notifier.py and getdata.py simultaneously.
 Base code and influence from: skrrgwasme on Stackexchange
 """
 import multiprocessing
@@ -13,8 +13,7 @@ import signal
 import notifier
 import getdata
 
-print "Content-type: text/html"
-print
+print "Content-type: text/html\r\n\r\n"
 print "<html>"
 print "<head>"
 print "</head>"
